@@ -1,0 +1,121 @@
+body {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #C7C9C9;
+
+}
+.col-kiri{
+    float: left;
+    width: 20%;
+    height: auto;
+    margin:  20px;
+    margin-top: 40px;
+}
+.col-kanan{
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: auto;
+    width: 70%;
+}
+.main{
+    width: 980px;
+    height: auto;
+    margin: 0;
+    padding-bottom: 30px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 80px;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 2px ;
+    box-shadow: 0px 1px 2px;
+}
+#wrap {
+    width: 100%;
+    float: left;
+    background: #C7C9C9;
+    margin-top: 1px;
+    padding-bottom: 40px;
+}
+.form-signin-heading{
+    font-family: ubuntu;
+    font-size: 18pt;
+    text-decoration: underline;
+    padding-left: 10px;
+    margin: 0;
+}
+.form-signin {
+    padding: 10px;
+    margin-left: 5px;
+    border:1px solid #f4f4f4;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow: 0 0 5px #aaa;
+    -moz-box-shadow: 0 0 5px #aaa;
+    box-shadow: 0 0 5px #aaa;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.jumbotron {
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5%;
+    text-align: center;
+    border-collapse: separate;
+    border-radius: 15px;
+}
+.form-tambah{
+    padding: 30px;
+    border: 4px;
+    border-color: #CFCFCF;
+    border-style: solid;
+    width: 500px;
+    margin: 50px;
+}
+.tombol-tambah{
+    float: right;
+}
+.jdl{
+    font-family: ubuntu;
+    font-weight: bold;
+}
+tr.info{
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+    font-family: ubuntu;
+    font-weight: bold;
+}
