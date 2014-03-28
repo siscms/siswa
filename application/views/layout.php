@@ -32,14 +32,13 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="<?php echo site_url('login/index') ?> ">App. Profil</a>
+                            <a class="navbar-brand" href="<?php echo site_url('login/index') ?> ">App. Profil Siswa</a>
                         </div>
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="<?php echo site_url('login/index') ?> ">Home</a></li> 
                                 <li><?php isset($view) ? $this->load->view($view) : null; ?></li>
-                                <li><a href="<?php echo site_url('profile/galery') ?> ">Gallery</a></li>
-                                <li><a href="<?php echo site_url('login/about') ?> ">About</a></li>
+                                <li><a href="<?php echo site_url('rpl1/galery') ?> ">Gallery</a></li>
                                 <li><?php isset($logout) ? $this->load->view($logout) : null; ?></li>
                             </ul>
                         </div><!-- /.nav-collapse -->

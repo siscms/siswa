@@ -10,9 +10,16 @@ class Login extends CI_Controller {
     function index() {
         if ($this->Login_model->check_logged()===TRUE)
         {  
+            $rpl1 = $this->Login_model->total_rpl1();
+            $rpl2 = $this->Login_model->total_rpl2();
+            $rpl3 = $this->Login_model->total_rpl3();
+            $data['total_rpl1']= $this->Login_model->total_rpl1();
+            $data['total_rpl2']= $this->Login_model->total_rpl2();
+            $data['total_rpl3']= $this->Login_model->total_rpl3();
+            $data['total']=$rpl1 + $rpl2 + $rpl3;
             $data['logout'] = 'logout';
+            $data['kiri'] = 'dashboard';
             $data['view'] = 'profile';
-            $data['kiri'] = 'widget';
             $data['page'] = 'index';
             $this->load->view('layout', $data);
         }
@@ -35,7 +42,7 @@ class Login extends CI_Controller {
             if ($this->Login_model->check_user($username, $password) == TRUE) {
                 $login = array('username' => $username, 'login' => TRUE);
                 $this->session->set_userdata($login);
-                redirect('profile');
+                redirect('login');
             } else {
                 $data['pesan'] = 'pesan';
                 $data['kiri'] = 'login';
@@ -65,24 +72,11 @@ class Login extends CI_Controller {
         }
     }
 
-    function about() {
-        if ($this->Login_model->check_logged()===TRUE)
-        {  
-            $data['logout'] = 'logout';
-            $data['view'] = 'profile';
-            $data['page'] = 'about';
-            $this->load->view('layout', $data);
-        }
-        else
-        {
-        $data['page'] = 'about';
-        $this->load->view('layout', $data);
-        }
-    }
-
     function logout() {
         $this->session->sess_destroy();
         redirect('login', 'refresh');
     }
+    
+    
 
 }

@@ -1,6 +1,6 @@
 
 <div class="jumbotron">
-    <h1>Selamat datang</h1>
-    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+    <h1>SMK WIRA BUANA</h1>
+    <p class="lead">Aplikasi profil siswa adalah aplikasi yang kami buat untuk mempermudah dalam menyimpan dan membackup biodata siswa SMK Wira Buana.</p>
 
 </div>

@@ -29,5 +29,17 @@ class Login_model extends CI_Model {
     {
         return ($this->check_logged())?$this->session->userdata('login'):'';
     }
-
+    
+    function total_rpl1() {
+       return $this->db->count_all('rpl1');
+    }
+    
+    function total_rpl2() {
+       return $this->db->count_all('rpl2');
+    }
+    
+    function total_rpl3() {
+       return $this->db->count_all('rpl3');
+    }
+       
 }

@@ -1,14 +1,14 @@
 
 <ul class="nav nav-list">
     <li style="font-family: Bitstream Vera Sans; font-size: 15pt;">
-        Pilih Divisi
+        Pilih Kelas
     </li>
     <li class="active">
-        <a href="<?php echo site_url('profile/galery') ?>">Divisi Keuangan</a>
+        <a href="<?php echo site_url('rpl1/galery') ?>">Kelas XI RPL 1</a>
     </li>
     <li>
-        <a href="<?php echo site_url('profileman/galery') ?>">Divisi Manager</a>
+        <a href="<?php echo site_url('rpl2/galery') ?>">Kelas XI RPL 2</a>
     </li>
     <li>
-        <a href="<?php echo site_url('profilehrd/galery') ?>">Divisi HRD</a>
+        <a href="<?php echo site_url('rpl3/galery') ?>">Kelas XI RPL 3</a>
     </li>

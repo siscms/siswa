@@ -1,1 +1,1 @@
-<a href="<?php echo site_url('profile/index') ?>"  >Profile</a>
+<a href="<?php echo site_url('rpl1/index') ?>"  >Profile</a>
